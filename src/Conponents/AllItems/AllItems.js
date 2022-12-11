@@ -15,10 +15,13 @@ const AllItems = () => {
     },[]);
     return (
       <div>
-        <h3 className="text-3xl font-bold my-10" style={{ color: "#0B0A0A" }}>
+        <h3
+          className="text-3xl font-bold my-10 px-2 lg:px-0"
+          style={{ color: "#0B0A0A" }}
+        >
           My Items
         </h3>
-        <div className="flex capitalize mb-5">
+        <div className="flex capitalize mb-5 px-2 lg:px-0">
           <h3
             className="pr-3 text-xl text-custom "
             style={{ borderBottom: " 2px solid #158BE1" }}
@@ -33,14 +36,14 @@ const AllItems = () => {
           </h3>
         </div>
         <div className="lg:flex my-4">
-          <div className="w-full lg:w-2/3">
+          <div className="w-full lg:w-2/3 px-6 lg:px-0">
             <ShortList />
             <div className="divider"></div>
             <ShortList />
             <div className="divider"></div>
             <ShortList />
             <div className="divider"></div>
-            <div className='text-center lg:text-start'>
+            <div className="text-center lg:text-start">
               <div className="btn-group gap-4 ">
                 <button
                   style={{ background: "#2D2D2D" }}

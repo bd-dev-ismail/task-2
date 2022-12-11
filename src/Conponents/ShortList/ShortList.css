@@ -7,3 +7,9 @@
 .text-custom{
     color: #575757;
 }
+@media (max-width: 575.98px) {
+    .btn-custom-sm{
+        height: "40px";
+        width: "110px";
+    }
+}

@@ -2,11 +2,11 @@ import React from 'react';
 
 const UserInsights = () => {
     return (
-      <div>
+      <div className='px-6'>
         <p className="text-xl text-custom font-semibold my-5">
           Kunal's Insights
         </p>
-        <div className="flex justify-around  lg:justify-between">
+        <div className="lg:flex justify-around  lg:justify-between">
           <div>
             <div>
               <h3 className="text-sm text-custom my-3">Experience</h3>

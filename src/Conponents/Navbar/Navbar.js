@@ -4,10 +4,10 @@ import { FaQuestionCircle, FaRegBell } from 'react-icons/fa';
 const Navbar = () => {
     return (
       <div>
-        <div className="navbar bg-base-100 px-6">
+        <div className="navbar bg-base-100 px-2 lg:px-6">
           <div className="flex-1">
             <a className="btn btn-ghost normal-case text-xl">Collabtalent</a>
-            <p>Desilu Inc</p>
+            <p className='hidden lg:block'>Desilu Inc</p>
           </div>
           <div className="flex-none">
             <div className="dropdown dropdown-end">

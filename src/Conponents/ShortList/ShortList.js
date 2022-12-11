@@ -7,7 +7,7 @@ const ShortList = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Number 1 row  */}
         <div className="flex justify-around items-center lg:items-start lg:justify-start">
-          <div className="flex flex-col" style={{ width: "20%" }}>
+          <div className="flex flex-col lg:w-[80px] w-[200px]">
             <div className="avatar mr-2">
               <div className="w-12 rounded-full">
                 <img
@@ -42,10 +42,14 @@ const ShortList = () => {
           </div>
         </div>
         {/* Number 2  */}
-        <div className="flex justify-around my-5 lg:my-0">
+        <div className="lg:flex  lg:text-start justify-around my-5 lg:my-0">
           <div>
             <div className="flex justify-between">
-              <h3 className="text-xl font-semibold text-custom">Experience</h3>
+              <div className="text-center">
+                <h3 className="text-xl font-semibold text-custom">
+                  Experience
+                </h3>
+              </div>
               <p className="text-xs text-link" style={{ color: "#1D7BEA" }}>
                 view all
               </p>
@@ -77,10 +81,10 @@ const ShortList = () => {
               </p>
             </div>
           </div>
-          <div className="">
+          <div className="text-center mt-5 lg:mt-0">
             <div>
               <button
-                className="text-white relative  rounded-3xl normal-case"
+                className="text-white relative btn-custom-sm rounded-3xl normal-case"
                 style={{
                   background: "#2C2C2C",
                   height: "50px",
@@ -88,12 +92,12 @@ const ShortList = () => {
                 }}
               >
                 Rate Us
-                <FaAngleDown  className='absolute right-4 top-5'/>
+                <FaAngleDown className="absolute right-4 top-5" />
               </button>
             </div>
             <div className="mt-5">
               <button
-                className="  rounded-3xl normal-case"
+                className="rounded-3xl btn-custom-sm normal-case"
                 style={{
                   background: "#fff",
                   height: "50px",

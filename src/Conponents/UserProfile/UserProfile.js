@@ -7,7 +7,7 @@ const UserProfile = () => {
     return (
       <div>
         <div>
-          <div className="flex flex-row-reverse justify-around lg:justify-between">
+          <div className="flex flex-row-reverse justify-around px-6 lg:px-0 my-5 lg:my-0 lg:justify-between">
             <div
               className="flex flex-col items-center"
               style={{ width: "20%" }}
